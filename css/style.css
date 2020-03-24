@@ -1,0 +1,127 @@
+h1{
+    margin-top: 64px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 34px;
+    color: #202020;
+}
+.title{
+    color: #43AC61;
+    font-weight: bold;
+}
+.title_text{
+    margin-top: 46px;
+    margin-bottom: 69px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+.border_1{ 
+    height: 140px;
+    border: 1px solid #3B5998;
+    border-radius: 5px;
+    margin-bottom: 19px;
+}
+.border_2{
+    height: 140px;
+    border: 1px solid #00ACED;
+    border-radius: 5px;
+    margin-bottom: 19px;
+}
+.border_3{
+    height: 140px;
+    border: 1px solid #517FA4;
+    border-radius: 5px;
+}
+.border_4{
+    height: 140px;
+    border: 1px solid #FF0084;
+    border-radius: 5px;
+}
+.border_1:hover img{
+    filter: brightness(500%);
+}
+.border_1:hover{
+    background-color: #3B5998;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.border_2:hover path{
+    fill: #fff;
+}
+.border_2:hover{
+    background-color: #00ACED;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.border_3:hover img{
+    filter: brightness(500%);
+}
+.border_3:hover{ 
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.border_4:hover path{
+    fill: #fff;
+}
+.border_4:hover{
+    background-color: #FF0084;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+[class^="style"]{
+    width: 100%;
+    margin-bottom: 47px;
+    padding-left: 16px;
+    height: 50px;
+    mix-blend-mode: normal;
+    border: 1px solid #BABABA;
+    border-radius: 5px;
+    outline: none;
+}
+.style_1{
+    border: 1px solid #2EC06C;
+}
+.text{
+    display: block;
+    width: 100%;
+    padding-top: 14px;
+    padding-left: 16px;
+    border: 1px solid #BABABA;
+    border-right: none;
+    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
+    resize: none;
+    outline: none;
+}
+.submit{
+    display: block;
+    width: 40px;
+    height: 161px;
+    background: #2EC06C url(../img/2.png) no-repeat;
+    background-position: center;
+    border-radius: 0px 5px 5px 0px;
+    border:none;
+    text-align:center;
+    outline: none;
+}
+input.style_1::-webkit-input-placeholder{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #666666;
+}
+::-webkit-input-placeholder{
+    font-family: 'Asap';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+}
